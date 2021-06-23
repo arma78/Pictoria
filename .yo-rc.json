@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.11.0",
+    "libraryName": "pictoria",
+    "libraryId": "49726ba3-faf3-4fbd-ba3e-a1592d973f6c",
+    "packageManager": "npm",
+    "isDomainIsolated": true,
+    "componentType": "webpart"
+  }
+}

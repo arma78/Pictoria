@@ -1,0 +1,186 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+
+.nobullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 1px; /* Remove padding */
+  margin: 1px; /* Remove margins */
+
+}
+
+
+
+  .stapler {
+    overflow: hidden;
+    margin:10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding:10px;
+    width:auto;
+    background-color:rgb(152, 224, 224);
+
+}
+
+p b.Rm
+{
+  cursor:pointer;
+}
+ .NewsLeft {
+  float:left;
+  width:25%;
+ // overflow:hidden;
+}
+.NDate {
+  align-content: right;
+}
+
+div.NewsLeft img {
+  max-width: 90%;
+  max-height: 90%;
+
+}
+ .newsimage
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:3px;
+}
+ .NewsRight {
+  float:left;
+  width:75%;
+  //overflow:hidden;
+}
+
+.ArticleNewsWp {
+
+  .container {
+    width: auto;
+    margin: auto;
+
+     /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: auto;
+  /* Firefox 1-3.6 */
+  -moz-border-radius: auto;
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: auto;
+  }
+  .slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;
+    padding: 10px;
+    background: cornflowerblue;
+    max-width: 420px;
+    width: 320px;
+    cursor:hand;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+
+  .swiper-pagination-bullet {
+
+    width: 20px;
+
+    height: 20px;
+
+    text-align: center;
+
+    line-height: 20px;
+
+    font-size: 12px;
+
+    color:#000;
+
+    opacity: 1;
+
+    background: rgba(0,0,0,0.2);
+
+  }
+
+  .swiper-pagination-bullet-active {
+
+    color:#fff;
+
+    background: #007aff;
+
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+}
+
