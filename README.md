@@ -73,3 +73,4 @@ This extension illustrates the following concepts:
 - [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
 "# Pictoria" 
 "# Pictoria" 
+"# Pictoria" 
