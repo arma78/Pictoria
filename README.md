@@ -74,3 +74,4 @@ This extension illustrates the following concepts:
 "# Pictoria" 
 "# Pictoria" 
 "# Pictoria" 
+"# Pictoria" 
